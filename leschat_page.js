@@ -1,14 +1,14 @@
 var firebaseConfig = {
-      apiKey: "AIzaSyA9WBnBH1c1PbZtWahmjrM16dR4s4x8SWo",
-      authDomain: "leschat-97a9f.firebaseapp.com",
-      databaseURL: "https://leschat-97a9f-default-rtdb.firebaseio.com",
-      projectId: "leschat-97a9f",
-      storageBucket: "leschat-97a9f.appspot.com",
-      messagingSenderId: "60973100677",
-      appId: "1:60973100677:web:c37f3648ac666cc3d783ec"
+      apiKey: "AIzaSyCXBoCgF6U55bsELp_ocAxFSRqwjNIKnMI",
+      authDomain: "leschat-5969a.firebaseapp.com",
+      databaseURL: "https://leschat-5969a-default-rtdb.firebaseio.com",
+      projectId: "leschat-5969a",
+      storageBucket: "leschat-5969a.appspot.com",
+      messagingSenderId: "201601636928",
+      appId: "1:201601636928:web:e41fe73a17d9a898a61da5"
     };
     // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+    firebase.initializeApp(firebaseConfig);
 userName = localStorage.getItem("Username");
 roomName = localStorage.getItem("roomName");
 
